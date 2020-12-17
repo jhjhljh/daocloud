@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * 2020/12/15 22:13
  */
 @Controller
+@ResponseBody
 public class MyController {
     @Autowired
     MySvc mySvc;
